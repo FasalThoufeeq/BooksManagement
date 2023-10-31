@@ -135,27 +135,27 @@ Follow these steps to set up and start your Node.js server:
 First, clone the repository to your local machine using Git:
 https://github.com/FasalThoufeeq/BooksManagement.git
 
-**2. Navigate to the Project Directory**
+#### 2. Navigate to the Project Directory
 Navigate to the project directory:
 cd Server
 
-**3. Install Dependencies**
+#### 3. Install Dependencies
 Use the following command to install the project dependencies listed in your package.json:
 npm install
 This will install packages like Express, Mongoose, and others.
 
-**4. Configure Environment Variables**
+#### 4. Configure Environment Variables
 Create a .env file in the project directory to store environment-specific variables. For example, if you need to specify a database connection URL, your .env file might look like this:
 DATABASE_URL=mongodb://localhost/your_database_name
 PORT=3000
 Make sure to customize the variables as needed for your project.
 
-**5. Starting the Server**
+#### 5. Starting the Server
 You can start the server using the following command:
 npm start
 This command will use Nodemon to monitor your server files for changes and automatically restart the server when changes are detected. Your server will start, and it should be available at the specified port (e.g., http://localhost:3000).
 
-**6. Testing the Endpoints**
+#### 6. Testing the Endpoints
 You can now test the API endpoints by sending requests to the server. Refer to the API documentation in this README for details on available endpoints and their usage.
 
 That's it! Your Node.js server is now set up and running. You can customize and expand your server as needed for your project. Don't forget to document any additional configuration or usage instructions in your README file as your project evolves.
